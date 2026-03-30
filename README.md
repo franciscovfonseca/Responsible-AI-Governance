@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ Responsible AI Governance — High-Risk AI System Controls
+# 🏛️ Responsible AI Governance - High-Risk AI System Controls
 
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-High%20Risk-red?style=for-the-badge&logo=europeanunion&logoColor=white)](https://artificialintelligenceact.eu/)
 [![UK AI Regulation](https://img.shields.io/badge/UK%20AI-Regulated-blue?style=for-the-badge&logo=data:image/png;base64,&logoColor=white)](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach)
@@ -14,13 +14,13 @@
 
 ## 📌 Project Overview
 
-I designed and implemented a **Responsible AI Governance Framework** for a High-Risk AI system operating in a regulated financial services environment within the **UK and EU**.
+In this Project I designed and implemented a **Responsible AI Governance Framework** for a High-Risk AI system operating in a regulated financial services environment within the **UK and EU**.
 
-The use case — AI-assisted **customer onboarding and fraud risk scoring** — is explicitly classified as **High Risk under the EU AI Act** (Annex III §5(b)) because it directly affects individuals' access to financial services. Without governance, deploying this system would expose the organisation to severe legal, ethical, and reputational risk.
+This use case - AI-assisted **customer onboarding and fraud risk scoring** - is explicitly classified as **High Risk under the EU AI Act** (Annex III §5(b)) because it directly affects individuals' access to financial services. Without governance, deploying this system would expose the organisation to severe legal, ethical and reputational risk.
 
-This project demonstrates how to translate abstract Responsible AI principles into **practical, enforceable governance mechanisms** — moving from policy to control to audit trail.
+This project demonstrates how to translate abstract Responsible AI principles into **practical, enforceable governance mechanisms** - moving from policy to control to audit trail.
 
-> **The core problem I solved:** The business wanted AI to speed up onboarding and reduce fraud losses. I designed the governance framework that made deployment possible while protecting customers, the organisation, and regulatory compliance.
+> **The core problem I solved:** The business wanted AI to speed up onboarding and reduce fraud losses. I designed the governance framework that made deployment possible while protecting customers, the organisation and regulatory compliance.
 
 ---
 
@@ -30,11 +30,11 @@ The organisation faced three critical challenges that drove the AI proposal:
 
 | Challenge | Business Impact |
 |---|---|
-| **Manual reviews are slow and inconsistent** | Onboarding takes 5–7 days; customer drop-off rates increasing |
-| **Fraud losses continue despite existing controls** | £2.3M in fraud losses last fiscal year; reactive detection only |
-| **Compliance teams cannot scale** | Headcount-constrained; review quality degrades under volume pressure |
+| **Manual reviews are slow and inconsistent** | Onboarding takes 5-7 days - customer drop-off rates increasing |
+| **Fraud losses continue despite existing controls** | £2.3M in fraud losses last fiscal year - reactive detection only |
+| **Compliance teams cannot scale** | Headcount-constrained - review quality degrades under volume pressure |
 
-The business proposed an AI solution to improve efficiency — but without governance, this would introduce **severe legal, ethical, and reputational risks** that would far outweigh any operational gains.
+The business proposed an AI solution to improve efficiency - but without governance, this would introduce **severe legal, ethical and reputational risks** that would far outweigh any operational gains.
 
 ---
 
@@ -71,7 +71,7 @@ flowchart LR
 - Automate low-risk approvals and high-risk rejections
 - Escalate only borderline cases to human analysts
 
-⚠️ **This proposal triggered a mandatory Responsible AI governance review** due to its impact on individuals' access to financial services — a High-Risk classification under the EU AI Act.
+⚠️ **This proposal triggered a mandatory Responsible AI governance review** due to its impact on individuals' access to financial services - a High-Risk classification under the EU AI Act.
 
 ---
 
@@ -79,7 +79,7 @@ flowchart LR
 
 All AI systems must enter a formal governance pipeline before deployment. The operating model enforces a single principle:
 
-> **No AI system progresses without explicit risk assessment, ownership, and approval.**
+> **No AI system progresses without explicit risk assessment, ownership and approval.**
 
 ```mermaid
 flowchart TD
@@ -112,10 +112,10 @@ flowchart TD
 
 The operating model enforces:
 
-- **Risk-based classification** — proportionate controls based on actual impact
-- **Committee oversight** — cross-functional review for High-Risk systems
-- **Go / No-Go decisions** — explicit approval gates before deployment
-- **Control enforcement** — mandatory controls proportional to risk tier
+- **Risk-based classification** - proportionate controls based on actual impact
+- **Committee oversight** - cross-functional review for High-Risk systems
+- **Go / No-Go decisions** - explicit approval gates before deployment
+- **Control enforcement** - mandatory controls proportional to risk tier
 
 ---
 
@@ -168,7 +168,7 @@ pie title Risk Assessment Distribution
 
 **Classification: 🔴 HIGH RISK**
 
-The system falls within **EU AI Act Annex III §5(b)** — AI systems used to evaluate creditworthiness or establish credit scores of natural persons. Full compliance with Articles 9–15 is mandatory.
+The system falls within **EU AI Act Annex III §5(b)** - AI systems used to evaluate creditworthiness or establish credit scores of natural persons. Full compliance with Articles 9-15 is mandatory.
 
 → Full assessment methodology: [`docs/risk-assessment.md`](docs/risk-assessment.md)
 
@@ -183,7 +183,7 @@ The completed risk assessment was presented to a cross-functional AI Governance 
 | Role | Responsibility |
 |---|---|
 | **Head of Digital** (Business Owner) | Accountable for business outcomes and risk acceptance |
-| **CISO / Head of Security** | Assesses security, data protection, and technical controls |
+| **CISO / Head of Security** | Assesses security, data protection and technical controls |
 | **Head of GRC** | Evaluates regulatory compliance and governance adequacy |
 | **Legal & Compliance** | Advises on legal obligations and liability exposure |
 
@@ -191,10 +191,10 @@ The completed risk assessment was presented to a cross-functional AI Governance 
 
 The committee evaluated the proposal against four key questions:
 
-1. **Who is affected by decisions?** — Natural persons seeking financial services
-2. **What is the regulatory exposure?** — EU AI Act High Risk (Annex III §5(b)); UK FCA Consumer Duty
-3. **What are the risks by Responsible AI pillar?** — Fairness and Transparency rated High
-4. **What control options exist, and what is the residual risk?** — Controls available; residual risk acceptable with conditions
+1. **Who is affected by decisions?** - Natural persons seeking financial services
+2. **What is the regulatory exposure?** - EU AI Act High Risk (Annex III §5(b)); UK FCA Consumer Duty
+3. **What are the risks by Responsible AI pillar?** - Fairness and Transparency rated High
+4. **What control options exist, and what is the residual risk?** - Controls available; residual risk acceptable with conditions
 
 ### Decision Outcome
 
@@ -295,7 +295,7 @@ flowchart LR
 
 ### Control 3: Transparency & Evidence Logging
 
-Every AI recommendation and human decision must be logged with sufficient detail for audit, complaint handling, and regulatory inquiry.
+Every AI recommendation and human decision must be logged with sufficient detail for audit, complaint handling and regulatory inquiry.
 
 | Data Element | Retention Period |
 |---|---|
@@ -319,7 +319,7 @@ All staff interacting with the AI system must acknowledge and comply with the Ac
 |---|---|
 | AI cannot be the sole decision-maker | System architecture enforces human approval step |
 | Staff must document rationale when following AI advice | Free-text rationale field mandatory for approval actions |
-| Overrides are encouraged when professional judgment disagrees | Override rate tracked; no penalty for justified overrides |
+| Overrides are encouraged when professional judgment disagrees | Override rate tracked - no penalty for justified overrides |
 
 → Full policy document: [`policies/acceptable-use-policy.md`](policies/acceptable-use-policy.md)
 
@@ -327,7 +327,7 @@ All staff interacting with the AI system must acknowledge and comply with the Ac
 
 ### Control 5: Ongoing Monitoring & Re-Assessment
 
-The AI system is subject to continuous monitoring and periodic re-assessment to detect drift, bias emergence, and control effectiveness.
+The AI system is subject to continuous monitoring and periodic re-assessment to detect drift, bias emergence and control effectiveness.
 
 | Monitoring Activity | Frequency |
 |---|---|
@@ -345,7 +345,7 @@ The AI system is subject to continuous monitoring and periodic re-assessment to 
 
 ---
 
-## ✔️ Final Outcome — Governance Impact
+## ✔️ Final Outcome - Governance Impact
 
 The governance framework transformed a high-risk proposal into a compliant, auditable deployment.
 
@@ -398,13 +398,13 @@ Responsible-AI-Governance/
 
 ## 🧠 Skills Demonstrated
 
-- **AI Governance** — Designing governance operating models that translate policy into enforceable controls
-- **EU AI Act** — Applying High-Risk classification criteria and implementing Articles 9–15 obligations
-- **Responsible AI** — Operationalising fairness, accountability, transparency, and safety principles
-- **Risk Assessment** — Structured risk evaluation across business, regulatory, and ethical dimensions
-- **Control Design** — Creating proportionate, auditable controls that enable rather than block deployment
-- **Stakeholder Management** — Facilitating cross-functional governance committee decisions
-- **Technical Writing** — Producing audit-ready documentation from governance artifacts
+- **AI Governance** - Designing governance operating models that translate policy into enforceable controls
+- **EU AI Act** - Applying High-Risk classification criteria and implementing Articles 9–15 obligations
+- **Responsible AI** - Operationalising fairness, accountability, transparency, and safety principles
+- **Risk Assessment** - Structured risk evaluation across business, regulatory, and ethical dimensions
+- **Control Design** - Creating proportionate, auditable controls that enable rather than block deployment
+- **Stakeholder Management** - Facilitating cross-functional governance committee decisions
+- **Technical Writing** - Producing audit-ready documentation from governance artifacts
 
 ---
 
