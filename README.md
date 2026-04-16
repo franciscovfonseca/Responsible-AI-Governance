@@ -16,7 +16,7 @@
 
 In this Project I designed and implemented a **Responsible AI Governance Framework** for a High-Risk AI system operating in a regulated financial services environment within the **UK and EU**.
 
-This use case - AI-assisted **customer onboarding and fraud risk scoring** - is explicitly classified as **High Risk under the EU AI Act** (Annex III §5(b)) because it directly affects individuals' access to financial services. Without governance, deploying this system would expose the organisation to severe legal, ethical and reputational risk.
+This use case - an AI-assisted **customer onboarding and fraud risk scoring** - is explicitly classified as **High Risk under the EU AI Act** (Annex III §5(b)) because it directly affects individuals' access to financial services. Without governance, deploying this system would expose the organisation to severe legal, ethical and reputational risk.
 
 This project demonstrates how to translate abstract Responsible AI principles into **practical, enforceable governance mechanisms** - moving from policy to control to audit trail.
 
