@@ -127,7 +127,7 @@ A Responsible AI Risk Assessment was performed before any deployment decision. T
 
 ```mermaid
 mindmap
-  root((Responsible AI\nRisk Assessment))
+  root((Responsible AI \ Risk Assessment))
     Business Impact
       Access to financial services
       Customer lifecycle decisions
