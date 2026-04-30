@@ -10,7 +10,7 @@
 
 ## 1. Purpose
 
-This policy defines the acceptable use of AI systems within the organisation. It establishes the responsibilities of all staff who interact with AI-assisted decision-making tools and ensures that AI is used in a manner consistent with our legal obligations, ethical commitments, and risk appetite.
+This policy defines the acceptable use of AI systems within the organisation. It establishes the responsibilities of all staff who interact with AI-assisted decision-making tools and ensures that AI is used in a manner consistent with our legal obligations, ethical commitments and risk appetite.
 
 This policy applies specifically to **High-Risk AI systems** as classified under the EU AI Act, including systems that affect individuals' access to financial services.
 
@@ -35,14 +35,14 @@ AI systems provide **recommendations**, not **decisions**. No AI output should b
 
 | AI Output | Human Action Required |
 |---|---|
-| Approval recommendation | Review and approve, reject, or escalate |
-| Rejection recommendation | Review and approve, reject, or escalate |
+| Approval recommendation | Review and approve, reject or escalate |
+| Rejection recommendation | Review and approve, reject or escalate |
 | Risk score | Interpret in context; do not rely solely on score |
 | Contributing factors | Consider alongside professional judgment |
 
 ### 3.2 Human Accountability
 
-**You are accountable for every decision you make**, regardless of whether that decision follows an AI recommendation. The AI cannot be blamed for poor outcomes — accountability rests with the human decision-maker.
+**You are accountable for every decision you make**, regardless of whether that decision follows an AI recommendation. The AI cannot be blamed for poor outcomes - accountability rests with the human decision-maker.
 
 This means:
 - You must understand the decision you are making
@@ -54,9 +54,9 @@ This means:
 You are expected to exercise **independent professional judgment**. AI is a tool to support your decision-making, not a replacement for your expertise.
 
 If you disagree with an AI recommendation:
-- **Override it** — you have the authority and responsibility to do so
-- **Document your reasoning** — explain why your judgment differs
-- **Do not hesitate** — overrides are expected and encouraged
+- **Override it** - you have the authority and responsibility to do so
+- **Document your reasoning** - explain why your judgment differs
+- **Do not hesitate** - overrides are expected and encouraged
 
 ### 3.4 Transparency and Honesty
 
@@ -107,7 +107,7 @@ All staff using AI-assisted decision systems must:
 
 ## 6. Overrides
 
-Overrides occur when your final decision differs from the AI recommendation. **Overrides are not penalised** — they are a sign of meaningful human oversight.
+Overrides occur when your final decision differs from the AI recommendation. **Overrides are not penalised** - they are a sign of meaningful human oversight.
 
 ### 6.1 When to Override
 
@@ -137,7 +137,7 @@ If your personal override rate is significantly different from peers, you may be
 
 ## 7. Reporting AI Errors
 
-If you believe the AI has made an error — either a clearly incorrect recommendation or a pattern of poor recommendations — you have a duty to report it.
+If you believe the AI has made an error - either a clearly incorrect recommendation or a pattern of poor recommendations - you have a duty to report it.
 
 ### 7.1 What to Report
 
@@ -202,7 +202,7 @@ Failure to comply with this policy may result in:
 
 ## 10. Policy Review
 
-This policy will be reviewed annually, or sooner if:
+This policy will be reviewed annually or sooner if:
 
 - Regulatory guidance changes
 - AI systems are significantly updated
@@ -213,7 +213,7 @@ This policy will be reviewed annually, or sooner if:
 
 ## 11. Acknowledgement
 
-By accessing AI-assisted decision systems, you confirm that you have read, understood, and agree to comply with this policy.
+By accessing AI-assisted decision systems, you confirm that you have read, understood and agree to comply with this policy.
 
 | Statement | Acknowledgement |
 |---|---|
