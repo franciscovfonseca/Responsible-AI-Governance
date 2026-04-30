@@ -1,4 +1,12 @@
+<!--
+BANNER PROMPT (ChatGPT / Google Flow):
+Minimalistic GitHub banner. Three flat 2D icons centred horizontally: governance document with checkmark (left), human + AI figure with arrow between them (centre), compliance shield (right). Title: "Responsible AI Governance". Subtitle: "High-Risk AI System Controls · EU AI Act Compliant". Background: light blue (#EBF5FB). Text: dark navy (#1A365D). 1280x640px. Flat 2D vector, no 3D, no gradients.
+-->
+
 <div align="center">
+
+![Banner](docs/banner.png)
+
 
 # 🏛️ Responsible AI Governance - High-Risk AI System Controls
 
