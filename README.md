@@ -198,7 +198,7 @@ The committee evaluated the proposal against four key questions:
 1. **Who is affected by decisions?** - Natural persons seeking financial services
 2. **What is the regulatory exposure?** - EU AI Act High Risk (Annex III §5(b)); UK FCA Consumer Duty
 3. **What are the risks by Responsible AI pillar?** - Fairness and Transparency rated High
-4. **What control options exist, and what is the residual risk?** - Controls available; residual risk acceptable with conditions
+4. **What control options exist and what is the residual risk?** - Controls available; residual risk acceptable with conditions
 
 ### Decision Outcome
 
@@ -265,7 +265,7 @@ The AI system outputs are **advisory only**. No automated decision is permitted.
 | All rejections require human review before action | System blocks rejection actions without analyst sign-off |
 | Final accountability remains with human decision-makers | Decision audit trail captures human approver identity |
 
-**Regulatory basis:** EU AI Act Article 14 — Human oversight must be meaningful, not nominal.
+**Regulatory basis:** EU AI Act Article 14 - Human oversight must be meaningful, not nominal.
 
 ---
 
@@ -338,7 +338,7 @@ The AI system is subject to continuous monitoring and periodic re-assessment to 
 | Fairness testing (demographic parity, equalised odds) | Quarterly |
 | Model drift detection | Monthly |
 | Override rate analysis | Monthly |
-| Full governance re-assessment | Annually, or triggered by: |
+| Full governance re-assessment | Annually or triggered by: |
 
 **Mandatory re-assessment triggers:**
 - Model architecture changes
@@ -376,9 +376,9 @@ flowchart LR
 | Dimension | Without Governance | With Governance |
 |---|---|---|
 | **Automation** | Full automation deployed | AI advisory with human oversight |
-| **Legal Exposure** | High — EU AI Act non-compliance | Reduced — Articles 9–15 addressed |
-| **Reputational Risk** | High — fairness incidents likely | Managed — bias monitoring active |
-| **Customer Trust** | Low — opaque automated decisions | Higher — human accountability preserved |
+| **Legal Exposure** | High - EU AI Act non-compliance | Reduced - Articles 9–15 addressed |
+| **Reputational Risk** | High - fairness incidents likely | Managed - bias monitoring active |
+| **Customer Trust** | Low - opaque automated decisions | Higher - human accountability preserved |
 | **Business Value** | Short-term gains, long-term liability | Sustainable value, responsible deployment |
 
 ---
@@ -404,8 +404,8 @@ Responsible-AI-Governance/
 
 - **AI Governance** - Designing governance operating models that translate policy into enforceable controls
 - **EU AI Act** - Applying High-Risk classification criteria and implementing Articles 9–15 obligations
-- **Responsible AI** - Operationalising fairness, accountability, transparency, and safety principles
-- **Risk Assessment** - Structured risk evaluation across business, regulatory, and ethical dimensions
+- **Responsible AI** - Operationalising fairness, accountability, transparency and safety principles
+- **Risk Assessment** - Structured risk evaluation across business, regulatory and ethical dimensions
 - **Control Design** - Creating proportionate, auditable controls that enable rather than block deployment
 - **Stakeholder Management** - Facilitating cross-functional governance committee decisions
 - **Technical Writing** - Producing audit-ready documentation from governance artifacts
@@ -417,7 +417,7 @@ Responsible-AI-Governance/
 | Resource | Link |
 |---|---|
 | EU AI Act (Official Text) | [EUR-Lex 2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) |
-| EU AI Act Annex III — High-Risk Systems | [EUR-Lex Annex III](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_III) |
+| EU AI Act Annex III - High-Risk Systems | [EUR-Lex Annex III](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_III) |
 | NIST AI Risk Management Framework 1.0 | [airmf.nist.gov](https://airmf.nist.gov/) |
 | UK AI Regulation White Paper | [gov.uk](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach) |
 | FCA Consumer Duty | [fca.org.uk](https://www.fca.org.uk/firms/consumer-duty) |
