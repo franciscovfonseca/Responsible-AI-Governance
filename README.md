@@ -6,10 +6,6 @@ Minimalistic GitHub banner. Three flat 2D icons centred horizontally: governance
 <div align="center">
 
 ![Banner](docs/banner.png)
-
-
-# 🏛️ Responsible AI Governance - High-Risk AI System Controls
-
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-High%20Risk-red?style=for-the-badge&logo=europeanunion&logoColor=white)](https://artificialintelligenceact.eu/)
 [![UK AI Regulation](https://img.shields.io/badge/UK%20AI-Regulated-blue?style=for-the-badge&logo=data:image/png;base64,&logoColor=white)](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach)
 [![Responsible AI](https://img.shields.io/badge/Responsible%20AI-Framework-00b4d8?style=for-the-badge)]()
